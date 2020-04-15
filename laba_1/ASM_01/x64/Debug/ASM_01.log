@@ -1,0 +1,52 @@
+﻿  APC_01.c
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(87): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(87): error C2065: finit: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(92): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(93): error C2065: MOV: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(93): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "RAX"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(93): error C2065: RAX: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(94): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "START_LABEL"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(95): error C2065: CMP: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(95): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "currentX"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(96): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JG"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(96): error C2065: JG: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(96): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EXIT_LABEL"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(97): error C2065: EXIT_LABEL: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(97): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "CMP"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(97): error C2065: CMP: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(97): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "currentX"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(98): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JE"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(98): error C2065: JE: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(98): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ADD_LABEL"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(99): error C2065: ADD_LABEL: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(99): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "FLD1"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(99): error C2065: FLD1: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(100): error C2065: FADD: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(100): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "currentX"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(101): error C2065: FPTAN: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(102): error C2065: FSTP: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(102): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ST"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(103): error C2065: ST: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(103): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "FLD"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(103): error C2065: FLD: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(103): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "currentX"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(104): error C2065: FSIN: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(105): error C2065: FDIV: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(106): error C2065: FADD: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(106): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "result"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(107): error C2065: FSTP: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(107): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "result"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(109): error C2065: ADD: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(109): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "RAX"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(109): error C2065: RAX: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(110): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "JMP"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(110): error C2065: JMP: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(110): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "START_LABEL"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(111): error C2065: START_LABEL: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(111): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EXIT_LABEL"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(113): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(114): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(114): error C2065: fwait: необъявленный идентификатор
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(130): warning C4033: "timer" должен возвращать значение
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(133): warning C4244: return: преобразование "LONGLONG" в "double", возможна потеря данных
+c:\users\pinky\source\repos\asm_01\asm_01\apc_01.c(135): warning C4033: "timer" должен возвращать значение

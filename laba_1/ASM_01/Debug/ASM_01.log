@@ -1,0 +1,6 @@
+﻿  APC_01.c
+c:\users\pinky\desktop\4 семетр\apc\laba_1\asm_01\apc_01.c(140): warning C4033: "timer" должен возвращать значение
+c:\users\pinky\desktop\4 семетр\apc\laba_1\asm_01\apc_01.c(144): warning C4244: return: преобразование "LONGLONG" в "double", возможна потеря данных
+c:\users\pinky\desktop\4 семетр\apc\laba_1\asm_01\apc_01.c(146): warning C4033: "timer" должен возвращать значение
+c:\users\pinky\desktop\4 семетр\apc\laba_1\asm_01\apc_01.c(149): warning C4715: timer: значение возвращается не при всех путях выполнения
+  ASM_01.vcxproj -> C:\Users\pinky\Desktop\4 семетр\APC\laba_1\Debug\ASM_01.exe

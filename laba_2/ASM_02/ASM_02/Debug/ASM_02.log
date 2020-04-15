@@ -1,0 +1,3 @@
+﻿  Source.c
+c:\users\pinky\desktop\4 семетр\apc\laba_2\asm_02\asm_02\source.c(138): warning C4244: функция: преобразование "double" в "unsigned int", возможна потеря данных
+  ASM_02.vcxproj -> C:\Users\pinky\Desktop\4 семетр\APC\laba_2\ASM_02\Debug\ASM_02.exe
