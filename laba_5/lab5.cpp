@@ -54,26 +54,7 @@ void interrupt newTimer(...)
 /* Íîâûé îáðàáîò÷èê äëÿ áóäèëüíèêà */
 void interrupt newAlarm(...)
 {
-    VIDEO far* screen = (VIDEO far *)MK_FP(0xB800, 0);
-	screen->symbol = 'T';                     
-	screen->attribute = 0x89;
-	screen++;
-	screen->symbol = 'I';                     
-	screen->attribute = 0x89;
-	screen++;
-	screen->symbol = 'M';                     
-	screen->attribute = 0x89;
-	screen++;
-	screen->symbol = 'E';                     
-	screen->attribute = 0x89;
-	screen++;
-	screen->symbol = 'R';                     
-	screen->attribute = 0x89;
-	screen++;
-	screen->symbol = '!';                     
-	screen->attribute = 0x89;
-	screen++;
-	puts("TIMER");
+    write("alarm!\n");
     oldAlarm();
     resetAlarm();
 }
