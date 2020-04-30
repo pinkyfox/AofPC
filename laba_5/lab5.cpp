@@ -4,13 +4,7 @@
 #include <conio.h>
 #include <io.h>
 
-struct VIDEO
-{
-	unsigned char symbol;
-	unsigned char attribute;
-};
- 
- int get_update_in_progress_flag() {
+int get_update_in_progress_flag() {
       outp(0x70, 0x0A);
       return (inp(0x71) & 0x80);
 }
@@ -54,7 +48,7 @@ void interrupt newTimer(...)
 /* Íîâûé îáðàáîò÷èê äëÿ áóäèëüíèêà */
 void interrupt newAlarm(...)
 {
-    write("alarm!\n");
+    puts("alarm!");
     oldAlarm();
     resetAlarm();
 }
