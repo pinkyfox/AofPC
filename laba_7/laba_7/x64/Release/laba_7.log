@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\pinky\Desktop\4 семетр\AofPC\laba_7\laba_7\Source.cpp(146,55): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pinky\Desktop\4 семетр\AofPC\laba_7\laba_7\Source.cpp(149,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  64 of 146 functions (43.8%) were compiled, the rest were copied from previous compilation.
+    29 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  laba_7.vcxproj -> C:\Users\pinky\Desktop\4 семетр\AofPC\laba_7\x64\Release\laba_7.exe
